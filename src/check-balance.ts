@@ -4,7 +4,7 @@
 import { WebSocket } from 'ws';
 
 // Midnight SDK imports
-import { resolveNetwork, getOrCreateSeed } from './network';
+import { resolveNetwork, getOrCreateSeed } from './network'; 
 // unshieldedToken is re-exported from ./wallet (originally @midnight-ntwrk/midnight-js-protocol/ledger).
 import { createWallet, persistWalletState, unshieldedToken } from './wallet';
 
