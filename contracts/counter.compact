@@ -1,6 +1,6 @@
 pragma language_version >= 0.23;
 
-import CompactStandardLibrary;
+import CompactStandardLibrary; 
 
 // A privacy-preserving counter contract.
 //
