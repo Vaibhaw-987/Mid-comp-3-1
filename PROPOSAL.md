@@ -1,5 +1,5 @@
 # Product Proposal
-
+ 
 ## What is the product, and who uses it?
 Anonity is a privacy-preserving bug bounty platform that connects security researchers with organizations without requiring researchers to reveal their real-world identity to the organization.
 
