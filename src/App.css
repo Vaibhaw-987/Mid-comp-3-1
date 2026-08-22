@@ -4,7 +4,7 @@
   }
   .priv-grid {
     grid-template-columns: 1fr 1fr !important;
-  }
+  } 
   .hero-pad {
     padding-left: 32px !important;
     padding-right: 32px !important;
