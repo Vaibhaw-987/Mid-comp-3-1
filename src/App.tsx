@@ -3,7 +3,7 @@ import { useMidnight } from './hooks/useMidnight';
 import WalletConnect from './components/WalletConnect';
 import CircuitCall from './components/CircuitCall';
 import './App.css';
-
+ 
 const NETWORK = (() => {
   const v = import.meta.env.VITE_NETWORK_ID as string | undefined;
   return (v && v.trim()) || 'preview';
