@@ -4,7 +4,7 @@
  * Tests run entirely against the compiled contract artifacts in
  * `contracts/managed/counter/` using @midnight-ntwrk/compact-runtime — no
  * network, no proof server, no wallet. They exercise the circuit logic and
- * ledger state transitions directly, modelling the BBoardSimulator pattern
+ * ledger state transitions directly, modelling the BBoardSimulator pattern 
  * from the Midnight tutorials.
  *
  * Run with: `npx tsx --test tests/counter.test.ts`
