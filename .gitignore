@@ -1,0 +1,90 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Contract compiler output — ignore everything by default, but track the
+# counter compiled artifacts (keys, zkir, contract JS, compiler JSON) so
+# reviewers can verify successful compilation. Pattern: ignore children
+# of managed/ but re-include counter/ and everything under it.
+contracts/managed/*
+!contracts/managed/counter/
+contracts/managed/counter/*
+!contracts/managed/counter/keys/
+!contracts/managed/counter/zkir/
+!contracts/managed/counter/contract/
+!contracts/managed/counter/compiler/
+
+# Deployment info
+deployment.json
+
+# Wallet seed (sensitive)
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# Private state
+*-state/
+
+# Temporary files
+tmp/
+temp/
+
+# Midnight network state (per-network seeds, deploy addresses)
+.midnight-state.json
+
+# Midnight wallet sync state (per-network serialized wallet state cache)
+.midnight-wallet-state/
+
+# Midnight local private state store (LevelDB from counter deploy)
+midnight-level-db/
+
+# Frontend build artifacts (copied from contracts/managed/counter/ during build)
+public/keys/
+public/zkir/
+
+# Vercel CLI
+.vercel/
+
+# Environment overrides (keep .env.preprod tracked for public config)
+.env.preprod.local
+.env.*.local
+
+# AI context files (never tracked)
+AGENTS.md
+PRD.md
+
+# Helper shell scripts (dev-only, not for submission)
+*.sh
