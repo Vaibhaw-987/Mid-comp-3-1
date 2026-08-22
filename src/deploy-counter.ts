@@ -5,7 +5,7 @@
  * and a witness `secretKey(): Bytes<32>`. We generate a random 32-byte owner secret,
  * store it in private state, pass it to the constructor, and wire up the witness
  * so future calls can re-derive the same secret key.
- *
+ * 
  * Usage: npx tsx src/deploy-counter.ts --network preview
  */
 import * as fs from 'node:fs';
