@@ -4,7 +4,7 @@ import wasm from 'vite-plugin-wasm';
 import topLevelAwait from 'vite-plugin-top-level-await';
 import { fileURLToPath } from 'node:url';
 
-export default defineConfig({
+export default defineConfig({ 
   plugins: [react(), wasm(), topLevelAwait()],
   server: {
     port: 3000,
