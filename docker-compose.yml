@@ -1,5 +1,5 @@
 # Local Midnight devnet for mn-demo
-# LOCAL DEVELOPMENT ONLY — do not expose these ports to a public network.
+# LOCAL DEVELOPMENT ONLY — do not expose these ports to a public network. 
 # Tear down with: docker compose down -v
 name: mn-demo-devnet
 
