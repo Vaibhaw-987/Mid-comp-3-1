@@ -2,7 +2,7 @@
 //
 // Mirrors network.ts in structure. The on-disk format and pure I/O live in
 // wallet-state.ts (unit-tested from the scaffolder workspace, no SDK deps);
-// this file is the glue between that format and the wallet SDK.
+// this file is the glue between that format and the wallet SDK. 
 
 import { Buffer } from 'buffer';
 
